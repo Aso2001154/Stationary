@@ -1,4 +1,5 @@
 <?php
+// 検索結果
 session_start();
 $user_number = $_SESSION['user']['user_number'];//データベースにデータを入れるまでこの行は消しておく
 $text = @$_POST['text'];
