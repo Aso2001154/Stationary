@@ -1,4 +1,5 @@
 <?php
+//　トップページ
 session_start();
 $genre_id = 1;
 $login_message = '';
